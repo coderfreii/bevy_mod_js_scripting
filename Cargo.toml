@@ -31,7 +31,7 @@ swc_atoms = { version = "0.4.3" }
 opt-level = 1
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
-deno_core = "0.146.0"
+deno_core = "0.300.0"
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 wasm_mutex = "0.1.4"
